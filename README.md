@@ -78,6 +78,8 @@ Projekt wykorzystuje algorytm **Q-Learning** z dynamicznym systemem nagród, eks
 ### 1. Sklonuj repozytorium
 
 ```bash
-https://github.com/filemon16/AI-Maze-Partially-Observable-Agent.git<img width="1297" height="955" alt="Zrzut ekranu z 2026-02-01 23-02-23" src="https://github.com/user-attachments/assets/f392a6db-6b61-4bfd-ae91-c801f8dcf805" />
+
+
+https://github.com/filemon16/AI-Maze-Partially-Observable-Agent.git
 
 cd maze-ai-pro
