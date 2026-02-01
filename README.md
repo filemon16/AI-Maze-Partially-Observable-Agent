@@ -21,8 +21,6 @@
 - [Struktura projektu](#struktura-projektu)
 - [Przykłady użycia](#przykłady-użycia)
 - [Technologie](#technologie)
-- [Autor](#autor)
-- [Licencja](#licencja)
 
 ## 📖 Opis projektu
 
