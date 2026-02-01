@@ -8,8 +8,11 @@
 
 **Zaawansowana aplikacja Python z Q-Learning, gdzie agent widzi TYLKO 4 sąsiednie komórki i musi nauczyć się strategii bez pełnej wizji labiryntu.**
 
-![Maze AI Pro Screenshot](https://via.placeholder.com/800x400/2c3e50/3498db?text=Maze+AI+Pro+Interface)
-*(Zastąp tym rzeczywistym screenshotem z aplikacji)*
+![Maze AI Pro Screenshot]
+
+<img width="1297" height="955" alt="Zrzut ekranu z 2026-02-01 23-02-23" src="https://github.com/user-attachments/assets/b7ad72df-b6e4-4c6d-a537-b739d3126d89" />
+
+
 
 ## 📋 Spis treści
 
