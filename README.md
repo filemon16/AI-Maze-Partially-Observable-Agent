@@ -1,2 +1,84 @@
 # AI Maze – Partially Observable Agent
 Zaawansowana aplikacja Python z Q-Learning, gdzie agent widzi TYLKO 4 sąsiednie komórki i musi nauczyć się strategii bez pełnej wizji labiryntu. Z generatorem labiryntów do 300x300, systemem wskazówek i interaktywnymi wykresami uczenia.
+
+
+
+[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/status-complete-brightgreen.svg)](https://github.com/yourusername/maze-ai-pro)
+
+**Zaawansowana aplikacja Python z Q-Learning, gdzie agent widzi TYLKO 4 sąsiednie komórki i musi nauczyć się strategii bez pełnej wizji labiryntu.**
+
+![Maze AI Pro Screenshot](https://via.placeholder.com/800x400/2c3e50/3498db?text=Maze+AI+Pro+Interface)
+*(Zastąp tym rzeczywistym screenshotem z aplikacji)*
+
+## 📋 Spis treści
+
+- [Opis projektu](#opis-projektu)
+- [Główne funkcje](#główne-funkcje)
+- [Wymagania](#wymagania)
+- [Instalacja](#instalacja)
+- [Szybki start](#szybki-start)
+- [Dokumentacja](#dokumentacja)
+- [Struktura projektu](#struktura-projektu)
+- [Przykłady użycia](#przykłady-użycia)
+- [Technologie](#technologie)
+- [Autor](#autor)
+- [Licencja](#licencja)
+
+## 📖 Opis projektu
+
+**Labirynt AI Pro** to zaawansowana aplikacja edukacyjna demonstrująca uczenie ze wzmocnieniem (Reinforcement Learning) w trudnym środowisku z **częściową obserwowalnością**. W przeciwieństwie do tradycyjnych rozwiązań, gdzie agent widzi cały labirynt, nasz AI ma dostęp **TYLKO do 4 sąsiednich komórek** (góra, dół, lewo, prawo), co znacząco utrudnia proces uczenia się optymalnej strategii.
+
+Projekt wykorzystuje algorytm **Q-Learning** z dynamicznym systemem nagród, eksploracją epsilon-greedy oraz zaawansowanymi technikami przyspieszania konwergencji. Aplikacja posiada profesjonalny interfejs graficzny z pełną kontrolą nad procesem uczenia.
+
+## ✨ Główne funkcje
+
+### 🎯 Agent z ograniczoną percepcją
+- Agent widzi **TYLKO 4 sąsiednie komórki** (brak pełnej wizji labiryntu)
+- System nagród za zbliżanie się do celu (+2 za każdy krok w kierunku celu)
+- Inteligentna obsługa stagnacji i zapętleń
+
+### 🗺️ Generator labiryntów
+- **6 wbudowanych labiryntów** o rosnącej trudności (Prosty → Bardzo Duży)
+- Generator własnych labiryntów **do 300×300 komórek**
+- Regulowana trudność generowanych labiryntów
+- Algorytm DFS z randomizacją dla unikalnych labiryntów
+
+### 🤖 Zaawansowane uczenie
+- **4 tryby trenowania**: Szybki, Standardowy, Dokładny, Eksploracyjny
+- Dostosowywalne parametry: współczynnik uczenia, eksploracja, dyskont
+- System wskazówek ręcznych dla przewodnictwa agenta
+- Ręczne trenowanie z interaktywnym sterowaniem
+- Historia uczenia z wykresami w czasie rzeczywistym
+
+### 📊 Analiza i wizualizacja
+- **Interaktywne wykresy** postępu uczenia (sukces, liczba kroków)
+- Ranking modeli z porównaniem wydajności
+- Statystyki w czasie rzeczywistym
+- Podgląd widoku agenta podczas uczenia
+
+### 💾 Zarządzanie modelami
+- Zapisywanie i wczytywanie wytrenowanych modeli
+- System wydajności z rankingiem najlepszych modeli
+- Reset modelu do stanu początkowego
+
+### 🎮 Interfejs użytkownika
+- Profesjonalny, nowoczesny design z motywem ciemnym
+- Intuicyjne sterowanie i nawigacja
+- Wizualizacja ruchu agenta z płynną animacją
+- System podpowiedzi i instrukcji
+
+## 📦 Wymagania
+
+- **Python 3.8+**
+- **tkinter** (zazwyczaj wbudowany w Pythona)
+- **matplotlib** (do wykresów uczenia)
+
+## 🔧 Instalacja
+
+### 1. Sklonuj repozytorium
+
+```bash
+git clone https://github.com/yourusername/maze-ai-pro.git
+cd maze-ai-pro
