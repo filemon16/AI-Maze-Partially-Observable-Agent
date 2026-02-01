@@ -1,10 +1,9 @@
 # AI Maze – Partially Observable Agent
-Zaawansowana aplikacja Python z Q-Learning, gdzie agent widzi TYLKO 4 sąsiednie komórki i musi nauczyć się strategii bez pełnej wizji labiryntu. Z generatorem labiryntów do 300x300, systemem wskazówek i interaktywnymi wykresami uczenia.
+
 
 
 
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-complete-brightgreen.svg)](https://github.com/yourusername/maze-ai-pro)
 
 **Zaawansowana aplikacja Python z Q-Learning, gdzie agent widzi TYLKO 4 sąsiednie komórki i musi nauczyć się strategii bez pełnej wizji labiryntu.**
